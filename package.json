@@ -1,0 +1,26 @@
+{
+  "name": "basic-v2",
+  "version": "1.0.0",
+  "description": "Geolonia Basic v1",
+  "main": "index.js",
+  "scripts": {
+    "start": "charites serve style.yml --provider geolonia",
+    "build": "charites build style.yml ./docs/style.json --sprite-input ./icons --sprite-output ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoloniamaps/basic-v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geoloniamaps/basic-v2/issues"
+  },
+  "homepage": "https://github.com/geoloniamaps/basic-v2#readme",
+  "devDependencies": {
+    "@unvt/charites": "^0.4.0",
+    "http-close": "^1.0.0",
+    "node-fetch": "^2.6.7",
+    "puppeteer": "^16.1.0"
+  }
+}

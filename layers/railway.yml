@@ -1,0 +1,21 @@
+id: railway
+type: line
+source: geolonia
+source-layer: transportation
+minzoom: 9
+filter:
+  - all
+  - - '=='
+    - class
+    - rail
+paint:
+  line-color: '#b3b3b3'
+  line-width: 1
+  line-opacity:
+    - interpolate
+    - - linear
+    - - zoom
+    - 9
+    - 0.4
+    - 14
+    - 1

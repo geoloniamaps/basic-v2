@@ -1,0 +1,18 @@
+id: tunnel-trunk-casing
+type: line
+source: geolonia
+source-layer: transportation
+minzoom: 8
+filter:
+  - all
+  - - '=='
+    - brunnel
+    - tunnel
+  - - in
+    - class
+    - trunk
+layout:
+  line-join: round
+paint:
+  line-color: !!inc/file layers/components/trunk-casing-color.yml
+  line-width: !!inc/file layers/components/broad-road-width-casing.yml

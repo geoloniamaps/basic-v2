@@ -1,0 +1,21 @@
+id: bridge-motorway-link-casing
+type: line
+source: geolonia
+source-layer: transportation
+minzoom: 14
+filter:
+  - all
+  - - '=='
+    - brunnel
+    - bridge
+  - - '=='
+    - class
+    - motorway
+  - - '!has'
+    - ramp
+layout:
+  line-join: round
+paint:
+  line-color: '#ffffff'
+  line-opacity: 1
+  line-width: !!inc/file layers/components/broad-road-width-casing.yml
