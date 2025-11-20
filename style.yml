@@ -1,4 +1,4 @@
-$name: Geolonia Basic v1
+$name: Geolonia Basic v2
 
 # カスタマイズここまで
 
@@ -7,7 +7,7 @@ name: $name
 sources:
   geolonia:
     type: vector
-    url: https://tileserver.geolonia.com/v3/tiles.json?key=YOUR-API-KEY
+    url: https://osm.v2.tiles.geolonia.com/tiles.json?key=YOUR-API-KEY
   dem:
     type: raster-dem
     url: https://tileserver.geolonia.com/gsi-dem/tiles.json?key=YOUR-API-KEY
