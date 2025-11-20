@@ -1,6 +1,6 @@
-# Basic v1
+# Basic v2
 
-このリポジトリは、Geolonia の [Basic v1 スタイル](https://geoloniamaps.github.io/basic-v2)をカスタマイズし公開するためのテンプレートリポジトリです。
+このリポジトリは、Geolonia の [Basic v2 スタイル](https://geoloniamaps.github.io/basic-v2)をカスタマイズし公開するためのテンプレートリポジトリです。
 
 以下のような簡単な手順でお好みのスタイルにカスタマイズし、地図として表示できます。
 
