@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/geoloniamaps/basic-v2#readme",
   "devDependencies": {
-    "@unvt/charites": "^0.4.0",
+    "@unvt/charites": "^2.1.15",
     "http-close": "^1.0.0",
     "node-fetch": "^2.6.7",
     "puppeteer": "^16.1.0"
